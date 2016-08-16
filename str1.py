@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-<<<<<<< HEAD
+
 months=[
 'January',
 'February',
@@ -28,6 +28,4 @@ month_name=months[month_number-1]
 ordinal=day+endings[day_number-1]
 
 print month_name+' '+ordinal+' ,'+year
-=======
-print "hello ,python "
->>>>>>> 8834d48f728296aabf197ca1f74956a3fd36dcc6
+
