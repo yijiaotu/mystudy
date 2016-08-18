@@ -27,3 +27,31 @@ def print_params_4(x,y,z=4,*pospar,**keypar):
 	print keypar
 
 print_params_4(1,2,3,4,5,5,6,foo=1,bar=2)
+
+
+def factorial(n):
+	result = n 
+	for i in range(1,n):
+		result*=i
+	return result
+
+
+print factorial(3)
+
+
+def fact(n):
+	if n==1:
+		return 1
+	else:
+		return n*fact(n-1)
+
+
+print fact(3)
+
+def power(x,n):
+	if n==0:
+		return 1
+	else:
+		return x*power(x,n-1)
+
+print power(10,3)
