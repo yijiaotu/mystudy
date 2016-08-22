@@ -75,7 +75,7 @@ os.path.expanduser(path)  #把path中包含的"~"和"~user"转换成用户目录
 os.path.expandvars(path)  #根据环境变量的值替换path中包含的”$name”和”${name}”
 os.path.getatime(path)  #返回最后一次进入此path的时间。
 os.path.getmtime(path)  #返回在此path下最后一次修改的时间。
-os.path.getctime(path)  #返回path的大小
+os.path.getctime(path)  #返回创建path文件的时间
 os.path.getsize(path)  #返回文件大小，如果文件不存在就返回错误
 os.path.isabs(path)  #判断是否为绝对路径
 os.path.isfile(path)  #判断路径是否为文件
