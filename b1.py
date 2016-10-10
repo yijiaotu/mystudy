@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #coding=utf-8
 
+# noinspection PyInterpreter
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 
