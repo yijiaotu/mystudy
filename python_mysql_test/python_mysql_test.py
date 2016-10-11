@@ -1,15 +1,11 @@
 #!/usr/bin/env python
-
-
-
-
 import MySQLdb
 
-db = MySQLdb.connect("localhost", "root", "zzy1203", "mysql")
+db = MySQLdb.connect("localhost", "root", "zzy1203", "sys")
 
 cursor = db.cursor()
 
-cursor.execute("select host,user from user")
+cursor.execute("SELECT * from host_summary")
 
 data = cursor.fetchall()
 
